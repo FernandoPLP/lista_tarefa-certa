@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Js</title>
+    <script src="./js/Tarefa.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <h1>MINHAS TAREFAS</h1>
+
+    <div>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Cadastro de Tarefas</legend>
+                <div class="add">
+                    <label for="id-tarefa" class="label-tarefa">Nova tarefa</label>
+                    <input type="text" name="tarefa" id="id-tarefa" placeholder="Digite uma nova tarefa">
+                    <label for="id-desc" class="label-tarefa">Descrição</label>
+                    <input type="text" name="tarefa" id="id-desc" placeholder="Digite uma nova descrição">
+                    <label for="id-autor" class="label-tarefa">Autor</label>
+                    <input type="text" name="tarefa" id="id-autor" placeholder="Digite uma novo autor">
+                    <label for="id-autor" class="label-tarefa">Departamento</label>
+                    <input type="text" name="tarefa" id="id-dep" placeholder="Digite o departamento">
+                    
+                    <label for="class-import" class="label-tarefa">Importância</label>
+
+                    <input type="radio" name="Importante" id="id-import1" class="class-import" value=1> Impôrtancia miníma
+                    <input type="radio" name="Importante" id="id-import2" class="class-import" value=2> Impôrtancia média
+                    <input type="radio" name="Importante" id="id-import3" class="class-import" value=3> Importancia Alta
+                </div>
+                </div>
+                </div>
+                <div>
+                    <button type="submit" id="btnAddTarefa">Adicionar</button>
+                    <button id="btnOrdenar">Ordenar por Importância</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div id="tabela">
+        <table>
+            <tr>
+                <th>Tarefa</th>
+                <th>Descrição</th>
+                <th>Autor</th>
+                <th>Departamento</th>
+                <th>Impôrtancia</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</body>
+</html>
